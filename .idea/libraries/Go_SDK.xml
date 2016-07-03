@@ -1,8 +1,0 @@
-<component name="libraryTable">
-  <library name="Go SDK">
-    <CLASSES>
-      <root url="file://$USER_HOME$/go-appengine-sdk/go_appengine/goroot/src" />
-    </CLASSES>
-    <SOURCES />
-  </library>
-</component>
