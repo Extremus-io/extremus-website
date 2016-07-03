@@ -1,0 +1,20 @@
+runtime: go
+api_version: go1
+application: extremus-io
+version: 1
+
+handlers:
+- url: /static
+  static_dir: webapp/build/unbundled
+
+- url: /.*
+  secure: always
+  script: _go_app
+
+
+skip_files:
+- webapp/static/.*
+- webapp/test/.*
+- webapp/build/bundled/.*
+- .idea.*
+- .git.*

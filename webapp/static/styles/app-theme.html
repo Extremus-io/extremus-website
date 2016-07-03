@@ -1,0 +1,106 @@
+<style is="custom-style">
+    :root {
+
+        /* App Color Scheme */
+        --primary-color: #167968;
+        --primary-color-dark: #106759;
+        --primary-color-light: #299e85;
+
+        --primary-background-color: #eee;
+        --primary-foreground-color: #fff;
+
+        --accent-color: #d45250;
+        --accent-color-dark: #9a3030;
+        --accent-color-light: #ffd3cf;
+
+        /* Text Color Scheme */
+        --text-primary-color-dark: #2f2f2f;
+        --text-primary-color: #444444;
+        --text-primary-color-light: #5f5f5f;
+
+        --text-secondary-color-light: #f4f4f4;
+        --text-secondary-color: #c6c6c6;
+        --text-secondary-color-dark: #b4b4b4;
+
+        /* blockquote color scheme */
+        --quote-info-background-color: #bbdcff;
+        --quote-info-text-color: #385589;
+
+        --quote-warn-background-color: #fffdb2;
+        --quote-warn-text-color: #b0aa3f;
+
+        --quote-critical-background-color: #ffc3c5;
+        --quote-critical-text-color: #893632;
+
+
+        /* Font Scheme */
+
+        --font-common-base: {
+            font-family: 'Exo 2', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        };
+        --font-common-quote: {
+            font-family: 'Annie Use Your Telescope', cursive;
+            -webkit-font-smoothing: antialiased;
+        };
+
+        /* Font for Headings */
+        --font-title: {
+            @apply(--font-common-base);
+            font-size: 20px;
+        };
+        --font-head1: {
+            @apply(--font-common-base);
+            font-size: 32px;
+            font-weight:normal;
+            color: var(--text-primary-color-dark);
+        };
+        --font-head2:{
+            @apply(--font-common-base);
+            font-size: 20px;
+            color: var(--text-primary-color);
+            font-weight: bold;
+        };
+        --font-head3: {
+            @apply(--font-common-base);
+            font-size: 20px;
+            font-weight: normal;
+        };
+        --font-head4: {
+            @apply(--font-common-base);
+            font-size: 18px;
+            font-weight:normal;
+        };
+        --font-head5: {
+            @apply(--font-common-base);
+            font-size: 17px;
+            font-weight:bold;
+        };
+        --font-head6: {
+            @apply(--font-common-base);
+            font-size: 16px;
+            font-weight:bold;
+        };
+        --font-subhead: {
+            @apply(--font-common-base);
+            font-size: 16px;
+            color: var(--text-primary-color-light);
+        };
+        --font-tagline: {
+            @apply(--font-common-base);
+            font-size: 14px;
+            color: var(--text-primary-color-light);
+        };
+        --font-quote: {
+            @apply(--font-common-quote);
+            font-size: 18px;
+            color: var(--text-primary-color-light);
+        };
+        --font-general: {
+            @apply(--font-common-base);
+            font-size: 16px;
+            color: var(--text-primary-color);
+        }
+    }
+
+</style>

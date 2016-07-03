@@ -1,0 +1,36 @@
+{
+  "name": "Extremus-IO - One stop for all your IoT needs",
+  "short_name": "Extremus-IO",
+  "gcm_sender_id": "253608736156",
+  "icons": [
+    {
+      "src": "static/images/touch/Extremus-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "static/images/touch/Extremus-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "static/images/touch/Extremus-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "static/images/touch/Extremus-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "static/images/touch/Extremus-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#106759",
+  "theme_color": "#2b7967"
+}
